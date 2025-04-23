@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding photography</title>
+    <link rel="shortcut icon" href="./img/fullscreen.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="render()">
+
+    <header>
+        <nav class="max-width-1440">
+            <a class="header-img-box" href="#"><img class="header-img" src="./img/fullscreen.png" alt="fullscreen"></a>
+            <a class="header-img-box" href="#"><img class="header-img" src="./img/share.png" alt="share"></a>
+            <a class="header-img-box" href="#"><img class="header-img" src="./img/search.png" alt="search"></a>
+        </nav>
+    </header>
+
+    <section class="main max-width-1440">
+        <h1>Wedding photography</h1>
+        <span class="subline">Thank you for coming to our wedding</span>
+        <div id="content" class="content"></div>
+        <div class="overlay d-none" id="overlay" onclick="closeOverlay()"></div>
+    </section>
+
+    <footer class="max-width-1440">
+        Modified 04/13/25, 1:33 PM
+        <div id="quantity" class="quantity-box"></div>
+        Christina & Ilja, Tuscany
+    </footer>
+
+</body>
+
+</html>
